@@ -1,0 +1,61 @@
+/* HEADER */
+body{
+    margin:0px;
+    
+}
+
+p{
+    margin:0px;
+}
+
+header{
+    background-color:#293462;
+    position:-webkit-sticky;
+    position:sticky;
+    top: 0px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.logo{
+    margin-left:15px;
+}
+
+ul{
+    display:flex;
+    margin-right:20px;
+    justify-content:space-between;
+    list-style:none;
+    padding:0px;
+    border:dotted red ;
+}
+
+li{
+    display:flex;
+    justify-content:center;
+    border-style:dotted;
+    border-color:rgb(0, 26, 255);
+    color:#FFF1C1;
+    width:33%;
+    min-width: 70px;
+}
+
+.ifs{
+    border:dotted pink;
+    display:flex;
+
+}
+/* BODY */
+
+
+    /*  PRESENTATION  */
+
+    .start{
+        display:flex;
+        justify-content:center;
+        background-image:url(../pics_accueil/pragues_flou.png);
+    }
