@@ -17,21 +17,24 @@ header{
 
 nav{
     display:flex;
+    border:dotted rgb(0, 195, 255);
     justify-content:space-between;
+    align-items:stretch;
 }
 
 
 .logo{
     margin-left:15px;
+    border: dotted fuchsia;
 }
 
 ul{
     display:flex;
-    margin-right:20px;
-    justify-content:space-between;
     list-style:none;
     padding:0px;
     border:dotted red ;
+    height:100%;
+    align-items:stretch;
 }
 
 li{
@@ -42,10 +45,11 @@ li{
     color:#FFF1C1;
     width:33%;
     min-width: 70px;
+    align-content:stretch;
 }
 
 .ifs{
-    border:dotted pink;
+    border:dotted rgb(255, 133, 153);
     display:flex;
 
 }
