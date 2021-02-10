@@ -1,65 +1,131 @@
-/* HEADER */
+
 body{
     margin:0px;
     
+}
+
+a{
+    text-decoration:none;
 }
 
 p{
     margin:0px;
 }
 
-header{
-    background-color:#293462;
-    position:-webkit-sticky;
-    position:sticky;
-    top: 0px;
-}
+/*  font-family: 'Nunito Sans', sans-serif;
 
-nav{
-    display:flex;
-    border:dotted rgb(0, 195, 255);
-    justify-content:space-between;
-    align-items:stretch;
-}
+    font-family: 'Quicksand', sans-serif; */
 
 
-.logo{
-    margin-left:15px;
-    border: dotted fuchsia;
-}
 
-ul{
-    display:flex;
-    list-style:none;
-    padding:0px;
-    border:dotted red ;
-    height:100%;
-    align-items:stretch;
-}
 
-li{
-    display:flex;
-    justify-content:center;
-    border-style:dotted;
-    border-color:rgb(0, 26, 255);
-    color:#FFF1C1;
-    width:33%;
-    min-width: 70px;
-    align-content:stretch;
-}
+/* HEADER */
 
-.ifs{
-    border:dotted rgb(255, 133, 153);
-    display:flex;
 
-}
+    header{
+        background-color:#293462;
+        position:-webkit-sticky;
+        position:sticky;
+        top: 0px;
+        font: bold 15px 'Quicksand', sans-serif;
+
+    }
+
+    .logo{
+        border:dotted pink;
+        height:80px;
+        width:80px;
+    }
+
+    nav{
+        display:flex;
+    /*    border:dotted rgb(0, 195, 255); */
+        justify-content:space-between;
+        
+        align-items:center;
+        height: 60px;
+    }
+
+
+        .logo{
+            display:flex;
+            margin-left:15px;
+            align-items:center;
+        }
+
+        .ul{
+            display:flex;
+            list-style:none;
+            /* border:dotted red ; */
+            align-items:stretch;
+        }
+
+        .bNav{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color:#FFF1C1;
+            width:100px;
+            min-width: 70px;
+            transition: all 0.2s;
+
+        }
+
+        .bNav:hover{
+            color: #A64942;
+        }
+
+
+
+
+        .user{
+        /*    border:dotted rgb(255, 133, 153); */
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            justify-items:space-around;
+            width:90px;
+        }
+
+            .svg{
+                height:30px;
+            }
+
+
+
 /* BODY */
 
 
     /*  PRESENTATION  */
+        
+    
+        body{
+            background:;
+        }    
+            
+        .start{
+            display:flex;
+            justify-content:center;
+            background-image:url(../pics_accueil/pragues_flou.png);
+        }
 
-    .start{
-        display:flex;
-        justify-content:center;
-        background-image:url(../pics_accueil/pragues_flou.png);
-    }
+        .intro{
+            margin:30px;
+            font-family: 'Nunito Sans', sans-serif;
+            border:dotted green;
+        }
+
+    /*  SECTIONS  */
+
+        section{
+            border:dotted yellowgreen;
+            margin:30px;
+        }
+        
+
+
+        .bg{
+            background-image:url(/pics_accueil/Nuages.png);
+            background-repeat: repeat-x;
+        }
+
