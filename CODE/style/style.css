@@ -1,7 +1,10 @@
 
+main{
+    min-width:910px;
+}
 body{
     margin:0px;
-    
+    background:linear-gradient(#293462 58%,  white 58% 100%);
 }
 
 a{
@@ -28,13 +31,13 @@ p{
         position:sticky;
         top: 0px;
         font: bold 15px 'Quicksand', sans-serif;
+        height: 80px;
 
     }
 
     .logo{
-        border:dotted pink;
-        height:80px;
-        width:80px;
+        height:75px;
+        width:75px;
     }
 
     nav{
@@ -43,7 +46,7 @@ p{
         justify-content:space-between;
         
         align-items:center;
-        height: 60px;
+        height: 100%;
     }
 
 
@@ -58,16 +61,21 @@ p{
             list-style:none;
             /* border:dotted red ; */
             align-items:stretch;
+            width:33%;
+            justify-content:space-between;
+            max-width: 350px;
         }
 
         .bNav{
             display:flex;
+            padding-top:15px;
+            padding-bottom:15px;
             justify-content:center;
             align-items:center;
             color:#FFF1C1;
             width:100px;
             min-width: 70px;
-            transition: all 0.2s;
+            transition:0.2s;
 
         }
 
@@ -85,6 +93,7 @@ p{
             align-items:center;
             justify-items:space-around;
             width:90px;
+            margin-right:15px;
         }
 
             .svg{
@@ -106,7 +115,6 @@ p{
         .start{
             display:flex;
             justify-content:center;
-            background-image:url(../pics_accueil/pragues_flou.png);
         }
 
         .intro{
@@ -117,15 +125,63 @@ p{
 
     /*  SECTIONS  */
 
-        section{
-            border:dotted yellowgreen;
-            margin:30px;
-        }
         
 
 
         .bg{
-            background-image:url(/pics_accueil/Nuages.png);
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            background-image:url(../pics_accueil/Nuages.png);
             background-repeat: repeat-x;
+            margin:0px;
         }
 
+        .miniature{
+            width:900px;
+            height:500px;
+            margin:50px;
+            border:5px inset rgb(245, 220, 29);
+        }
+
+        .miniature:hover{
+            border:5px outset rgb(245, 220, 29);
+        }
+
+        .i1{
+            transition: all 2s;
+            background-image:url(../pics_accueil/INSOLITE.png);
+        }
+
+        .i1:hover,
+        .i1:focus{
+            background-image:url(../pics_accueil/INSOLITE2.png);
+        }
+
+        .i2{
+            transition: all 2s;
+            background-image:url(../pics_accueil/LUXE.png);
+        }
+
+        .i2:hover,
+        .i2:focus{
+            background-image:url(../pics_accueil/LUXE2.png);
+        }
+
+        .i3{
+            transition: all 2s;
+            background-image:url(../pics_accueil/bon-plan.png);
+        }
+
+        .i3:hover,
+        .i3:focus{
+            background-image:url(../pics_accueil/bon-plan2.png);
+        }
+
+
+    /* FOOTER */
+
+        footer{
+            background-color:#293462;
+            height: 300px;
+        }
