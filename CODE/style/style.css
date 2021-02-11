@@ -4,7 +4,6 @@ main{
 }
 body{
     margin:0px;
-    background:linear-gradient(#293462 58%,  white 58% 100%);
 }
 
 a{
@@ -26,12 +25,10 @@ p{
 
 
     header{
-        background-color:#293462;
         position:-webkit-sticky;
         position:sticky;
         top: 0px;
         font: bold 15px 'Quicksand', sans-serif;
-        height: 80px;
 
     }
 
@@ -43,10 +40,10 @@ p{
     nav{
         display:flex;
     /*    border:dotted rgb(0, 195, 255); */
+        background-color:#293462;
         justify-content:space-between;
-        
+        height: 80px;
         align-items:center;
-        height: 100%;
     }
 
 
@@ -108,9 +105,6 @@ p{
     /*  PRESENTATION  */
         
     
-        body{
-            background:;
-        }    
             
         .start{
             display:flex;
@@ -182,6 +176,6 @@ p{
     /* FOOTER */
 
         footer{
-            background-color:#293462;
-            height: 300px;
+         background-color:#293462;
+           
         }

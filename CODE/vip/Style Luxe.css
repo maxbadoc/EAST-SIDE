@@ -1,0 +1,16 @@
+H1{
+    margin-left: 825px;
+    font-family: 'Quicksand', sans-serif;
+    color:#FFF1C1;
+}
+
+body{   
+    background-image:url(./Fond\ Luxe.svg);
+    background-position: center;
+    background-size: 2000px 2000px ;
+    background-repeat: no-repeat;
+}
+
+main{
+    height: 1000px;
+}
