@@ -15,11 +15,6 @@ H1{display: inline;
     padding: 50em;
     display: flex;
 }
-.block2 {
-    border : 50px;
-    padding :50em;
-    display :flex;
-}
 .CTA{
     display:flex;
     margin-top:10px;
