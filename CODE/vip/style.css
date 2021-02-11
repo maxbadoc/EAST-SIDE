@@ -1,0 +1,63 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+ 
+.back{
+    display:flex;
+    height: 10000px;
+    flex-direction: column;
+    align-items:center;
+    background-image:url(./Page\ de\ Luxe\ v6.png);
+    margin:0px;
+ }
+ .h1{
+     border: white;
+     color: white;
+ }
+ img{
+     width: 700px;
+     height: 500px;
+ }
+
+ .pp{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    width: 550px;
+    text-align: justify;
+    }
+    
+    .cadre{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: black;
+        width: auto;
+        border-radius: 15px;
+        padding: 2%;
+    
+    }
+    .cadre2{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: black;
+        width: auto;
+        border-radius: 15px;
+        padding: 2%;
+    
+    }
+    .cadre3{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: black;
+        width: auto;
+        border-radius: 15px;
+        padding: 2%;
+    
+    }
+
