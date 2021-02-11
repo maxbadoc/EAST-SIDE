@@ -19,7 +19,7 @@ p{
     font-family: 'Quicksand', sans-serif; */
 
 
-
+ 
 
 /* HEADER */
 
@@ -104,7 +104,9 @@ p{
 
     /*  PRESENTATION  */
         
-    
+        .video{
+            width:100%;
+        }
             
         .start{
             display:flex;
@@ -114,7 +116,6 @@ p{
         .intro{
             margin:30px;
             font-family: 'Nunito Sans', sans-serif;
-            border:dotted green;
         }
 
     /*  SECTIONS  */
@@ -143,7 +144,7 @@ p{
         }
 
         .i1{
-            transition: all 2s;
+            transition:all 0.2s;
             background-image:url(../pics_accueil/INSOLITE.png);
         }
 
@@ -153,7 +154,7 @@ p{
         }
 
         .i2{
-            transition: all 2s;
+            transition: all 0.2s;
             background-image:url(../pics_accueil/LUXE.png);
         }
 
@@ -163,7 +164,7 @@ p{
         }
 
         .i3{
-            transition: all 2s;
+            transition: all 0.2s;
             background-image:url(../pics_accueil/bon-plan.png);
         }
 
@@ -176,6 +177,36 @@ p{
     /* FOOTER */
 
         footer{
-         background-color:#293462;
-           
+            background-color:#293462;
+            display:flex;
+
         }
+
+        .foot{
+            display:flex;
+            width:33%;
+            height:200px;
+            align-items:center;
+            justify-content:center;
+        }
+
+        .txtF{
+            color:#FFF1C1;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        .txtF:hover{            
+            text-decoration:underline;
+        }
+
+        .hrF{
+            color:#FFF1C1;
+        }
+
+        .f3{
+            display:flex;
+            flex-direction:column;
+        }
+
+
+

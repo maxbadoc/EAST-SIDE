@@ -1,0 +1,34 @@
+body{
+    background-image: url(./visuels/insolite_fond.svg);
+    background-position: center;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+}
+img{display: flex;
+    width: 100%;
+}
+H1{display: inline;
+    color:#A64942;
+}
+.block {
+    border : 50px;
+    padding: 50em;
+    display: flex;
+}
+.CTA{margin: 30px;
+    display:flex;
+    margin-top:10px;
+    justify-content: center;
+    align-items:center;
+    
+    height: 50px;
+    background-color:goldenrod;
+    border-radius:10px;
+    align-self:center;
+}
+.Texte1{margin: 30px ;
+    padding:10px;
+    border: outset #FFFFFF 2px;
+    border-radius:15px;
+    background-color: #FFFFFF;
+}
