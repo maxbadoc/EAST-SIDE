@@ -1,7 +1,7 @@
 body{   
     background-image:url(./Page\ de\ Luxe\ v6.png);
     background-position: center;
-    background-size: 2000px 2000px ;
+    background-size:cover ;
     background-repeat: no-repeat;
 }
 
@@ -38,7 +38,7 @@ H1{
 
 .img2:hover,
 .img2:focus{
-    background-image:url(./vienne_1.jpg);
+    background-image:url(./vienne_1V2.png);
 }
 
 .img2{
@@ -46,6 +46,48 @@ H1{
     border:solid #fff1c1;
     width:900px;
     height: 600px;
-    background-image:url(./Moscou\ 2.jpg);
+    background-image:url(./vienne_1.jpg);
     transition: all 1s;
+}
+
+.img3{
+    border-radius:15px;
+    border:solid #fff1c1;
+    width:900px;
+    height: 600px;
+    background-image:url(./Cracovie.png);
+    transition: all 1s;
+}
+
+.img3:hover,
+.img3:focus{
+    background-image:url(./Cracovie\ fond.png);
+}
+
+.img4{
+    border-radius:15px;
+    border:solid #fff1c1;
+    width:900px;
+    height: 600px;
+    background-image:url(./Bratislava.png);
+    transition: all 1s;
+}
+
+.img4:hover,
+.img4:focus{
+    background-image:url(./Bratislava\ fond\ v2.png);
+}
+
+.img5{
+    border-radius:15px;
+    border:solid #fff1c1;
+    width:900px;
+    height: 600px;
+    background-image:url(./Vilnius.jfif);
+    transition: all 1s;
+}
+
+.img5:hover,
+.img5:focus{
+    background-image:url(./Vilnius\ fond.png);
 }

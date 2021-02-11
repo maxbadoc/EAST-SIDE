@@ -15,23 +15,18 @@ H1{display: inline;
     padding: 50em;
     display: flex;
 }
-.block2 {
-    border : 50px;
-    padding :50em;
-    display :flex;
-}
-.CTA{
+.CTA{margin: 30px;
     display:flex;
     margin-top:10px;
     justify-content: center;
     align-items:center;
-    width: 100%;
+    
     height: 50px;
     background-color:goldenrod;
     border-radius:10px;
     align-self:center;
 }
-.Texte1{
+.Texte1{margin: 30px ;
     padding:10px;
     border: outset #FFFFFF 2px;
     border-radius:15px;
