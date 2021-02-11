@@ -105,17 +105,28 @@ p{
     /*  PRESENTATION  */
         
         .video{
-            width:100%;
+            width:80%;
+        }
+
+        .video:active{
+            border:0px;
         }
             
         .start{
             display:flex;
-            justify-content:center;
+            justify-content:center;          
+            background-color:black;
         }
 
         .intro{
             margin:30px;
+            padding:15px;
             font-family: 'Nunito Sans', sans-serif;
+            font-weight: bold;           
+            color:#293462;
+            border-radius:30px;
+            border:solid #293462;
+            background-color: #FFF1C1;
         }
 
     /*  SECTIONS  */
