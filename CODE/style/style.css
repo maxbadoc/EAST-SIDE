@@ -201,6 +201,7 @@ p{
 
         .hrF{
             color:#FFF1C1;
+            font-weight:bold;
         }
 
         .f3{
@@ -208,5 +209,16 @@ p{
             flex-direction:column;
         }
 
+/* cgv */
 
+.tkt{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.cgv{
+    width:80%;
+    margin:50px;
+}
 
