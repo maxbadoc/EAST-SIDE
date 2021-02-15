@@ -6,6 +6,10 @@ body{
     margin:0px;
 }
 
+.bgc{
+    background: linear-gradient(#95d3e1, #95d3e1, white, white);
+}
+
 a{
     text-decoration:none;
 }
