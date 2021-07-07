@@ -12,16 +12,39 @@ H1{display: inline;
 }
 .block {
     border : 50px;
-    padding: 50em;
-    display: flex;
+    padding: 5em;
+    display: block;
+    flex-direction: column;
 }
+p, 
+ul {
+  border: 2px solid rebeccapurple;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+}      
+
 .CTA{margin: 30px;
     display:flex;
     margin-top:10px;
     justify-content: center;
     align-items:center;
     
-    height: 50px;
+
+    height: 50px; 
     background-color:goldenrod;
     border-radius:10px;
     align-self:center;
